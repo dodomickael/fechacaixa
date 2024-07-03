@@ -10,12 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const notes10 = parseInt(document.getElementById('notes10').value) || 0;
         const notes20 = parseInt(document.getElementById('notes20').value) || 0;
         const notes50 = parseInt(document.getElementById('notes50').value) || 0;
-        const notes100 = parseInt(document.getElementById('notes100').value) || 0;
-        const notes200 = parseInt(document.getElementById('notes200').value) || 0;
+    
 
-        const total = (notes2 * 2) + (notes5 * 5) + (notes10 * 10) +
-                      (notes20 * 20) + (notes50 * 50) + (notes100 * 100) +
-                      (notes200 * 200);
+        const total = (notes2 * 0.05) + (notes5 * 0.10) + (notes10 * 0.25) +
+                      (notes20 * 0.5) + (notes50 * 1)
 
         totalValueSpan.textContent = total;
     }
