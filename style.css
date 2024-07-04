@@ -1,5 +1,7 @@
 body{
     background-image: linear-gradient(45deg,black, crimson);
+
+    box-sizing: border-box;
 }
 
     main{
@@ -15,13 +17,13 @@ body{
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
         & h1{
             text-wrap: nowrap;
             font-size: 30px;
             position: absolute;
-            top: 20px;
+            top: 0px;
             color: white;
             font-weight: bold;
         }
@@ -34,7 +36,7 @@ input{
     height: 25px;
 }
 h2{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     font-weight: bold;
 }
@@ -42,4 +44,27 @@ label{
     color: white;
     font-weight: bold;
     font-size: 18px;
+}
+form{
+    margin-top: 20px;
+    position: absolute;
+}
+span{
+    font-size: 25px;
+}
+#notes200{
+    margin-bottom: 70px;
+}
+
+.h2-1{
+    position: absolute;
+    top: 425px;
+    left: 20px
+    
+}
+
+.h2-2{
+    position: absolute;
+    top: 740px;
+    left: 15px;
 }
