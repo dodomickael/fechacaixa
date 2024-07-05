@@ -1,5 +1,5 @@
 body{
-    /*background-image: linear-gradient(45deg,black, crimson);*/
+    /* background-image: linear-gradient(45deg,black, crimson); */
     background-color: black;
     box-sizing: border-box;
 }
@@ -46,25 +46,19 @@ label{
     font-size: 18px;
 }
 form{
-    margin-top: 20px;
+    margin-top: 300px;
     position: absolute;
 }
 span{
     font-size: 25px;
 }
 #notes200{
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
-
-.h2-1{
-    position: absolute;
-    top: 425px;
-    left: 20px
-    
+#coins005{
+    margin-top: 30px;
 }
-
-.h2-2{
-    position: absolute;
-    top: 740px;
-    left: 15px;
+#coinssobrando{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
